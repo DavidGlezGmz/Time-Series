@@ -7,7 +7,7 @@ Time series analysis comprises methods for analyzing time series data in order t
 (From Wikipedia, the free encyclopedia: https://en.wikipedia.org/wiki/Time_series#:~:text=In%20mathematics%2C%20a%20time%20series,sequence%20of%20discrete%2Dtime%20data.)
 
 
-### ARIMA in Electric and Gas Utilities
+## ARIMA in Electric and Gas Utilities
 ARIMA is an acronym that stands for AutoRegressive Integrated Moving Average. It is a generalization of the simpler AutoRegressive Moving Average and adds the notion of integration.
 
 This acronym is descriptive, capturing the key aspects of the model itself. Briefly, they are:
@@ -23,4 +23,8 @@ p: The number of lag observations included in the model, also called the lag ord
 d: The number of times that the raw observations are differenced, also called the degree of differencing.
 q: The size of the moving average window, also called the order of moving average.
 
-## Results
+(From Machine Learning Mastery, Jason Brownlee: https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
+
+### Results
+
+![image](https://user-images.githubusercontent.com/86708470/170336455-0c35e6ee-4691-49ee-a192-2a6da3e1e2d6.png)
